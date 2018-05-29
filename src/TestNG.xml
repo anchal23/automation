@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="NOL">
+<test name="adaaa">
+<classes>
+
+<class name="testcases.AdminSignUpTest"/>
+</classes>
+</test>
+
+<test name="adafaaaa">
+<classes>
+<class name="testcases.registerNurseTest"/>
+</classes>
+</test>
+
+<test name="personal">
+<classes>
+<class name="testcases.personalinfo"/>
+</classes>
+</test>
+
+<test name="profesional">
+<classes>
+<class name="testcases.profesionalInfoTest"/>
+</classes>
+</test>
+
+
+<test name="employe">
+<classes>
+<class name="testcases.EmployeInfoTest"/>
+</classes>
+</test>
+
+
+<test name="mediacl">
+<classes>
+<class name="testcases.MedicalInfoTest"/>
+</classes>
+</test>
+
+<test name="payment">
+<classes>
+<class name="testcases.PaymentDetailsTest"/>
+</classes>
+</test>
+
+<test name="empfbgfb">
+<classes>
+<class name="testcases.EmployeInfoTest"/>
+</classes>
+</test>
+
+
+
+</suite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [abc]">
+  <test thread-count="5" name="adaaa(failed)">
+    <classes>
+      <class name="test.testing">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- test.testing -->
+    </classes>
+  </test> <!-- adaaa(failed) -->
+</suite> <!-- Failed suite [abc] -->

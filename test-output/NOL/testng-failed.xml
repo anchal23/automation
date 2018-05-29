@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [NOL]">
+  <test thread-count="5" name="adafaaaa(failed)">
+    <classes>
+      <class name="testcases.registerNurseTest">
+        <methods>
+          <include name="registerNurse11" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.registerNurseTest -->
+    </classes>
+  </test> <!-- adafaaaa(failed) -->
+  <test thread-count="5" name="personal(failed)">
+    <classes>
+      <class name="testcases.personalinfo">
+        <methods>
+          <include name="registerNurse11" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.personalinfo -->
+    </classes>
+  </test> <!-- personal(failed) -->
+  <test thread-count="5" name="profesional(failed)">
+    <classes>
+      <class name="testcases.profesionalInfoTest">
+        <methods>
+          <include name="registerNurse11" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.profesionalInfoTest -->
+    </classes>
+  </test> <!-- profesional(failed) -->
+  <test thread-count="5" name="employe(failed)">
+    <classes>
+      <class name="testcases.EmployeInfoTest">
+        <methods>
+          <include name="SignInas" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.EmployeInfoTest -->
+    </classes>
+  </test> <!-- employe(failed) -->
+  <test thread-count="5" name="mediacl(failed)">
+    <classes>
+      <class name="testcases.MedicalInfoTest">
+        <methods>
+          <include name="medicleInfo"/>
+        </methods>
+      </class> <!-- testcases.MedicalInfoTest -->
+    </classes>
+  </test> <!-- mediacl(failed) -->
+  <test thread-count="5" name="payment(failed)">
+    <classes>
+      <class name="testcases.PaymentDetailsTest">
+        <methods>
+          <include name="PaymentInfo" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.PaymentDetailsTest -->
+    </classes>
+  </test> <!-- payment(failed) -->
+  <test thread-count="5" name="empfbgfb(failed)">
+    <classes>
+      <class name="testcases.EmployeInfoTest">
+        <methods>
+          <include name="SignInas" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.EmployeInfoTest -->
+    </classes>
+  </test> <!-- empfbgfb(failed) -->
+</suite> <!-- Failed suite [NOL] -->
